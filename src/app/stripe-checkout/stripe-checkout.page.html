@@ -1,0 +1,12 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>stripe-checkout</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="content">
+      <ion-spinner *ngIf="waiting" name="circles" color="primary"></ion-spinner>
+      {{message}}
+  </div>
+</ion-content>

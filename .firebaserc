@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "riifuel-dev": {
+      "hosting": {
+        "app": [
+          "riifuel-dev"
+        ]
+      }
+    }
+  }
+}
